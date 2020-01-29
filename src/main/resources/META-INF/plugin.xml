@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>org.example.ms-intellij</id>
+    <name>Falafel</name>
+    <vendor email="movsum.nigar@gmail.com" url="">Falafel</vendor>
+
+    <description>
+        Falafel Plugin will be used to save your solutions on technical issues and bugs
+        and to access them and also global solutions when you need to solve similar issues.
+        Also it will be used for teams to use teammates' expertise.
+    </description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
